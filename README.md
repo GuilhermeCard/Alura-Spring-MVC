@@ -9,3 +9,7 @@ Spring MVC: Crie um web app com Thymeleaf e Bootstrap
 * Resolver suas dependências com injeção de dependências
 * Usar Spring Security para criar um login
 * Estilizar o HTML com Bootstrap
+
+## Para acessar o curso clique aqui -> [Acessar curso][1].
+
+[1]: https://cursos.alura.com.br/course/spring-mvc-thymeleaf-bootstrap        "Acessar curso"
