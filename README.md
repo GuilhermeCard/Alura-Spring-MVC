@@ -1,11 +1,11 @@
 # Alura-Spring-MVC
 Spring MVC: Crie um web app com Thymeleaf e Bootstrap
 
-## 
-* Conheça o padrão MVC com o Spring MVC
-* Use o Spring Data para persistência
-* Crie views melhores com Thymeleaf
-* Valide os seus dados com o BeanValidation
-* Resolva suas dependências com injeção de dependências
-* Use Spring Security para criar um login
-* Estilize o HTML com Bootstrap
+## Durante este curso de Java para Web foi abordado:
+* Padrão MVC com o Spring MVC
+* Usar o Spring Data para persistência
+* Criar views melhores com Thymeleaf
+* Validar os seus dados com o BeanValidation
+* Resolver suas dependências com injeção de dependências
+* Usar Spring Security para criar um login
+* Estilizar o HTML com Bootstrap
