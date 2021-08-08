@@ -1,12 +1,21 @@
 package br.com.alura.mvc.mudi.dto;
 
+import javax.validation.constraints.NotBlank;
+
 import br.com.alura.mvc.mudi.model.Pedido;
 
 public class RequisicaoNovoPedido {
+	
+	@NotBlank
 	private String nomeProduto;
-	private String descricao;
+	
+	@NotBlank
 	private String urlProduto;
+	
+	@NotBlank
 	private String urlImagem;
+	
+	private String descricao;
 
 	public String getNomeProduto() {
 		return nomeProduto;
