@@ -31,15 +31,14 @@ public class Pedido {
 	@ManyToOne(fetch = FetchType.LAZY)
 	private User user;
 	
-	
-	public User getUser() {
-		return user;
-	}
-	public void setUser(User user) {
-		this.user = user;
-	}
 	public StatusPedido getStatus() {
 		return status;
+	}
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
 	}
 	public void setStatus(StatusPedido status) {
 		this.status = status;
@@ -79,6 +78,10 @@ public class Pedido {
 	}
 	public void setUrlImagem(String urlImagem) {
 		this.urlImagem = urlImagem;
+	}
+	
+	public void setUser(User user) {
+		this.user = user;
 	}
 
 }
